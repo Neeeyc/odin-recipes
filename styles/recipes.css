@@ -8,10 +8,16 @@ h1 {
 	color: #4a756e;
 }
 
-#pizza-container {
+#pizza-container,
+#meatloaf-container,
+#lasagna-container {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+}
+
+img {
+	width: 50%;
 }
 
 ul,
