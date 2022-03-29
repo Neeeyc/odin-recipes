@@ -1,0 +1,24 @@
+body {
+	background-image: url('../images/background.jpg');
+}
+
+h1 {
+	text-align: center;
+	font-size: 5em;
+	color: #4a756e;
+}
+
+#pizza-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+ul,
+ol {
+	color: white;
+}
+
+img {
+	border-radius: 25px;
+}

@@ -1,39 +1,41 @@
-body{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-image: url('../images/background.jpg');
 }
 
-h1{
-    text-align: center;
-    font-size: 7em;
-    font-weight: 900;
-    color: #4A756E;
-    font-family: Copperplate Gothic;
+h1 {
+	text-align: center;
+	font-size: 7em;
+	font-weight: 900;
+	color: #4a756e;
+	font-family: Copperplate Gothic;
 }
 
-#container{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-    width:100vw;
-    height: 70%;
+#container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 10px;
+	width: 100vw;
+	height: 70%;
 }
 
-div{
-    width: 33%;
+div {
+	width: 33%;
 }
 
-img{
-    width: 100%;
-    height: 100%;
-    filter:blur(5px);
+img {
+	width: 100%;
+	height: 100%;
+	filter: blur(5px);
 }
 
-img:hover{
-    filter:blur(0px);
+img:hover {
+	filter: blur(0px);
+}
+
+p {
+	color: #4a756e;
 }
